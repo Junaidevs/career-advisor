@@ -1,0 +1,40 @@
+.app-container { min-height: 100vh; display: flex; align-items: center; justify-content: center; background: #f9fafb; font-family: Arial, sans-serif; padding: 20px; }
+
+.card { background: white; padding: 20px; border-radius: 12px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); width: 100%; max-width: 500px; text-align: center; }
+
+.brand { font-size: 24px; font-weight: bold; margin-bottom: 10px; }
+
+h2 { margin-bottom: 20px; }
+
+input { display: block; width: 100%; padding: 5px; margin: 8px 0; border: 1px solid #ccc; border-radius: 6px; margin-right:50px;  box-sizing: border-box;}
+
+.button-row { display: flex; justify-content: space-between; margin-top: 20px;}
+
+button { width: 20%; padding: 10px; margin-top: 15px; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; }
+
+button:hover { background: #1e40af; }
+
+.link { color: #2563eb; font-size: 14px; cursor: pointer; margin-bottom: 10px; }
+
+.visual { height: 150px; background: #e5e7eb; display: flex; align-items: center; justify-content: center; border-radius: 8px; margin-bottom: 15px; margin-left:auto;}
+
+.grid-3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; margin-bottom: 15px; }
+
+.grid-1 { 
+  display: grid;
+  gap: 10px;
+  margin-bottom: 15px;
+ }
+
+.box { padding: 12px; border: 1px solid #ccc; border-radius: 6px; background: #f3f4f6; }
+
+.flex-between { display: flex; justify-content: space-between; }
+
+.ai-box { background: #f9fafb; padding: 12px; border-radius: 6px; border: 1px solid #e5e7eb; margin-bottom: 15px; }
+
+
+
+.premium-btn { background: #16a34a; width: 70%; padding: 10px; margin-top: 15px; margin-bottom: 20px; margin-right:10px; background: #2563eb; color: white; border: none; border-radius: 6px; cursor: pointer; font-size: 16px; } 
+
+.premium-btn:hover { background: #15803d; }
+
